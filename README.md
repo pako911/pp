@@ -1,1 +1,1 @@
-# pp
+# Exercises from Programming platforms
