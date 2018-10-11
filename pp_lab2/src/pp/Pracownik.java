@@ -20,7 +20,7 @@ public class Pracownik extends Osoba {
     private int pensja;
     private Stanowisko stanowisko;
 
-    public Pracownik(String imie, String nazwisko, int pensja, Stanowisko stanowisko) {
+    Pracownik(String imie, String nazwisko, int pensja, Stanowisko stanowisko) {
         super(imie, nazwisko);
         this.pensja = pensja;
         this.stanowisko = stanowisko;
@@ -31,11 +31,11 @@ public class Pracownik extends Osoba {
         return super.toString() + "\nPensja: " + pensja + "\nStanowisko: " + stanowisko;
     }
 
-    public int getPensja() {
+    int getPensja() {
         return pensja;
     }
 
-    public Stanowisko getStanowisko() {
+    Stanowisko getStanowisko() {
         return stanowisko;
     }
 }

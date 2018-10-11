@@ -2,12 +2,12 @@ package pp;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
-
-public class Firma {
+class Firma {
     private final List<Pracownik> firma = new ArrayList<>();
 
-    Firma(){};
+    Firma(){}
 
     void add(Pracownik p){
         firma.add(p);
@@ -27,6 +27,10 @@ public class Firma {
 
     void itereator(Pracownik.Stanowisko s){
         // todo
+//        List<String> result = firma.stream()
+//                .filter(line ->);
+//                .collect(Collectors.toList());
+//        result.forEach(System.out::println);
     }
 
     void count(){
@@ -45,13 +49,20 @@ public class Firma {
     void salaryByJob(Pracownik.Stanowisko s){
         int suma = 0;
         int ilosc = 0;
-        for(Pracownik p : firma){
-            if(p.getStanowisko() == s) {
-                suma += p.getPensja();
-                ilosc++;
+        try{
+            for(Pracownik p : firma){
+                if(p.getStanowisko() == s) {
+                    suma += p.getPensja();
+                    ilosc++;
+                }
             }
+            if(ilosc == 0)
+                throw new ArithmeticException("Nie ma pracownikow o podanym stanowisku");
+            suma /= ilosc;
+            System.out.println(suma);
+        }catch (ArithmeticException e){
+            System.out.println(e.getMessage());
         }
-        suma/=ilosc;
-        System.out.println(suma);
+
     }
 }
