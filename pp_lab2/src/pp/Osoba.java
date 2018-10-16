@@ -11,6 +11,6 @@ public class Osoba {
 
     @Override
     public String toString() {
-        return "Imie: " + this.imie + "\nNazwisko: " + this.nazwisko;
+        return "Imie: " + imie + "\nNazwisko: " + nazwisko;
     }
 }
