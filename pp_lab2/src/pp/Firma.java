@@ -26,11 +26,11 @@ class Firma {
     }
 
     void itereator(Pracownik.Stanowisko s){
-        // todo
-//        List<String> result = firma.stream()
-//                .filter(line ->);
-//                .collect(Collectors.toList());
-//        result.forEach(System.out::println);
+        for(Pracownik p: firma){
+            if(p.getStanowisko() == s){
+                System.out.println(p);
+            }
+        }
     }
 
     void count(){
