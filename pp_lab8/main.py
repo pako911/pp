@@ -41,6 +41,22 @@ def cout_most_frequent(text, n):
     text = tokenize(text)
     return Counter(text).most_common(n)
 
+# zadanie 7
+def anagram_count(text):
+    dict = {}
+    text = text.split()
+    print(text)
+    for word in text:
+        key = ''.join(sorted(word))
+        if key in dict.keys():
+            dict[key].append(word)
+        else:
+            dict[key] = []
+            dict[key].append(word)
+    output = ""
+    for key, value in dict.items():
+        output = output + ' '.join(value) + ' '
+    return output
 
 def main():
     lista = [1, 2, 3, 4]
@@ -75,5 +91,11 @@ def main():
         tekst4 = input_file.read()
         input_file.close()
     print("Najczęściej występujące słowa:", cout_most_frequent(tekst4, 20))
+
+    print("\nzadanie7: ")
+    with open('unixdict.txt') as input_file:
+        tekst5 = input_file.read()
+        input_file.close()
+    print(anagram_count(tekst5))
 
 main()
