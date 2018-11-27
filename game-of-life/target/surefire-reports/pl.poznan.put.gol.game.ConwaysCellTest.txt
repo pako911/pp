@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: pl.poznan.put.gol.game.ConwaysCellTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.629 sec <<< FAILURE! - in pl.poznan.put.gol.game.ConwaysCellTest
+testToString(pl.poznan.put.gol.game.ConwaysCellTest)  Time elapsed: 0.075 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at pl.poznan.put.gol.game.ConwaysCellTest.testToString(ConwaysCellTest.java:57)
+
+testNeighbors(pl.poznan.put.gol.game.ConwaysCellTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at pl.poznan.put.gol.game.ConwaysCellTest.testNeighbors(ConwaysCellTest.java:43)
+

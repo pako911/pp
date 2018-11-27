@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: pl.poznan.put.gol.game.CellsNeighborsTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.003 sec <<< FAILURE! - in pl.poznan.put.gol.game.CellsNeighborsTest
+testOverlappingNeighbors(pl.poznan.put.gol.game.CellsNeighborsTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented yet.
+	at pl.poznan.put.gol.game.Cells.getNeighbors(Cells.java:22)
+	at pl.poznan.put.gol.game.CellsNeighborsTest.testOverlappingNeighbors(CellsNeighborsTest.java:35)
+
+testSingleNeighbors(pl.poznan.put.gol.game.CellsNeighborsTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented yet.
+	at pl.poznan.put.gol.game.Cells.getNeighbors(Cells.java:22)
+	at pl.poznan.put.gol.game.CellsNeighborsTest.testSingleNeighbors(CellsNeighborsTest.java:18)
+
+testNoNeighbors(pl.poznan.put.gol.game.CellsNeighborsTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented yet.
+	at pl.poznan.put.gol.game.Cells.getNeighbors(Cells.java:22)
+	at pl.poznan.put.gol.game.CellsNeighborsTest.testNoNeighbors(CellsNeighborsTest.java:11)
+

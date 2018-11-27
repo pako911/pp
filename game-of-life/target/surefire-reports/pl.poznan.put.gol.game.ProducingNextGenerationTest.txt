@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: pl.poznan.put.gol.game.ProducingNextGenerationTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.002 sec <<< FAILURE! - in pl.poznan.put.gol.game.ProducingNextGenerationTest
+extintGenerationsProducesExtintGeneration(pl.poznan.put.gol.game.ProducingNextGenerationTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented yet.
+	at pl.poznan.put.gol.game.Generation.evolve(Generation.java:19)
+	at pl.poznan.put.gol.game.ProducingNextGenerationTest.extintGenerationsProducesExtintGeneration(ProducingNextGenerationTest.java:17)
+
+aBlockRemainsTheSame(pl.poznan.put.gol.game.ProducingNextGenerationTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented yet.
+	at pl.poznan.put.gol.game.Generation.evolve(Generation.java:19)
+	at pl.poznan.put.gol.game.ProducingNextGenerationTest.aBlockRemainsTheSame(ProducingNextGenerationTest.java:26)
+
+aCellIsBornAndOnlyItRemains(pl.poznan.put.gol.game.ProducingNextGenerationTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented yet.
+	at pl.poznan.put.gol.game.Generation.evolve(Generation.java:19)
+	at pl.poznan.put.gol.game.ProducingNextGenerationTest.aCellIsBornAndOnlyItRemains(ProducingNextGenerationTest.java:38)
+
+OnlyOneCellRemainsAndTwoAreBorn(pl.poznan.put.gol.game.ProducingNextGenerationTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented yet.
+	at pl.poznan.put.gol.game.Generation.evolve(Generation.java:19)
+	at pl.poznan.put.gol.game.ProducingNextGenerationTest.OnlyOneCellRemainsAndTwoAreBorn(ProducingNextGenerationTest.java:49)
+

@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: pl.poznan.put.gol.game.ConwaysRulesTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.01 sec <<< FAILURE! - in pl.poznan.put.gol.game.ConwaysRulesTest
+aCellIsBorn(pl.poznan.put.gol.game.ConwaysRulesTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented yet.
+	at pl.poznan.put.gol.game.ConwaysRules.inNextGeneration(ConwaysRules.java:8)
+	at pl.poznan.put.gol.game.ConwaysRulesTest.aCellIsBorn(ConwaysRulesTest.java:35)
+
+staysAlive(pl.poznan.put.gol.game.ConwaysRulesTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented yet.
+	at pl.poznan.put.gol.game.ConwaysRules.inNextGeneration(ConwaysRules.java:8)
+	at pl.poznan.put.gol.game.ConwaysRulesTest.staysAlive(ConwaysRulesTest.java:24)
+
+diesBecauseOfUnderpopulation(pl.poznan.put.gol.game.ConwaysRulesTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented yet.
+	at pl.poznan.put.gol.game.ConwaysRules.inNextGeneration(ConwaysRules.java:8)
+	at pl.poznan.put.gol.game.ConwaysRulesTest.diesBecauseOfUnderpopulation(ConwaysRulesTest.java:19)
+
+diesBecauseOfOverpopulation(pl.poznan.put.gol.game.ConwaysRulesTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented yet.
+	at pl.poznan.put.gol.game.ConwaysRules.inNextGeneration(ConwaysRules.java:8)
+	at pl.poznan.put.gol.game.ConwaysRulesTest.diesBecauseOfOverpopulation(ConwaysRulesTest.java:30)
+

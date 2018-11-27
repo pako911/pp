@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: pl.poznan.put.gol.game.GenerationTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.006 sec <<< FAILURE! - in pl.poznan.put.gol.game.GenerationTest
+testCountAliveNeighbors(pl.poznan.put.gol.game.GenerationTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented yet.
+	at pl.poznan.put.gol.game.Generation.countAliveNeighbors(Generation.java:29)
+	at pl.poznan.put.gol.game.GenerationTest.testCountAliveNeighbors(GenerationTest.java:13)
+
+testIsAlive(pl.poznan.put.gol.game.GenerationTest)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented yet.
+	at pl.poznan.put.gol.game.Generation.isAlive(Generation.java:24)
+	at pl.poznan.put.gol.game.GenerationTest.testIsAlive(GenerationTest.java:25)
+

@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: pl.poznan.put.gol.game.ConwaysGameOfLifeTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 0.041 sec <<< FAILURE! - in pl.poznan.put.gol.game.ConwaysGameOfLifeTest
+aBlockIsStillLife(pl.poznan.put.gol.game.ConwaysGameOfLifeTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented yet.
+	at pl.poznan.put.gol.game.Generation.evolve(Generation.java:19)
+	at pl.poznan.put.gol.game.ConwaysGameOfLifeTest.aBlockIsStillLife(ConwaysGameOfLifeTest.java:36)
+
+aExtinctGameRemainsExtinct(pl.poznan.put.gol.game.ConwaysGameOfLifeTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented yet.
+	at pl.poznan.put.gol.game.Generation.evolve(Generation.java:19)
+	at pl.poznan.put.gol.game.ConwaysGameOfLifeTest.aExtinctGameRemainsExtinct(ConwaysGameOfLifeTest.java:21)
+
+aBlinkerOscillatesWithPeriodTwo(pl.poznan.put.gol.game.ConwaysGameOfLifeTest)  Time elapsed: 0.003 sec  <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented yet.
+	at pl.poznan.put.gol.game.Generation.evolve(Generation.java:19)
+	at pl.poznan.put.gol.game.ConwaysGameOfLifeTest.aBlinkerOscillatesWithPeriodTwo(ConwaysGameOfLifeTest.java:76)
+
+aBoatIsStillLife(pl.poznan.put.gol.game.ConwaysGameOfLifeTest)  Time elapsed: 0.003 sec  <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented yet.
+	at pl.poznan.put.gol.game.Generation.evolve(Generation.java:19)
+	at pl.poznan.put.gol.game.ConwaysGameOfLifeTest.aBoatIsStillLife(ConwaysGameOfLifeTest.java:66)
+
+aGliderMovesDiagonallyWithPeriod4(pl.poznan.put.gol.game.ConwaysGameOfLifeTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented yet.
+	at pl.poznan.put.gol.game.Generation.evolve(Generation.java:19)
+	at pl.poznan.put.gol.game.ConwaysGameOfLifeTest.aGliderMovesDiagonallyWithPeriod4(ConwaysGameOfLifeTest.java:98)
+
+aLoafIsStillLife(pl.poznan.put.gol.game.ConwaysGameOfLifeTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented yet.
+	at pl.poznan.put.gol.game.Generation.evolve(Generation.java:19)
+	at pl.poznan.put.gol.game.ConwaysGameOfLifeTest.aLoafIsStillLife(ConwaysGameOfLifeTest.java:56)
+
+aBeehiveIsStillLife(pl.poznan.put.gol.game.ConwaysGameOfLifeTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented yet.
+	at pl.poznan.put.gol.game.Generation.evolve(Generation.java:19)
+	at pl.poznan.put.gol.game.ConwaysGameOfLifeTest.aBeehiveIsStillLife(ConwaysGameOfLifeTest.java:46)
+
+aToadOscillatesWithPeriodTwo(pl.poznan.put.gol.game.ConwaysGameOfLifeTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.UnsupportedOperationException: Not implemented yet.
+	at pl.poznan.put.gol.game.Generation.evolve(Generation.java:19)
+	at pl.poznan.put.gol.game.ConwaysGameOfLifeTest.aToadOscillatesWithPeriodTwo(ConwaysGameOfLifeTest.java:87)
+

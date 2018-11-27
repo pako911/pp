@@ -38,4 +38,8 @@ public class Pracownik extends Osoba {
     Stanowisko getStanowisko() {
         return stanowisko;
     }
+
+    public void setStanowisko(Stanowisko stanowisko) {
+        this.stanowisko = stanowisko;
+    }
 }
