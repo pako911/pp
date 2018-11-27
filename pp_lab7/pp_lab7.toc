@@ -1,0 +1,13 @@
+\babel@toc {polish}{}
+\contentsline {section}{\numberline {1}Zadanie 3}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}Komunikaty}{2}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Porty}{3}{subsection.1.2}
+\contentsline {section}{\numberline {2}Zadanie 4}{3}{section.2}
+\contentsline {subsection}{\numberline {2.1}Egzaminy: }{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}J\IeC {\k e}zyki programowania: }{3}{subsection.2.2}
+\contentsline {section}{\numberline {3}Zadanie 5}{4}{section.3}
+\contentsline {section}{\numberline {4}Zadanie 6}{5}{section.4}
+\contentsline {subsection}{\numberline {4.1}Obrazek}{5}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Tabela}{5}{subsection.4.2}
+\contentsline {section}{\numberline {5}Zadanie 7}{6}{section.5}
+\contentsline {section}{\numberline {6}Zadanie 8}{7}{section.6}
